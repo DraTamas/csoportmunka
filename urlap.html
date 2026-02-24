@@ -1,33 +1,24 @@
 <!DOCTYPE html>
 <html lang="hu">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dark Souls urlap</title>
     <link rel="stylesheet" href="urlap.css">
     <link rel="stylesheet" href="formazasok.css">
     <link rel="stylesheet" href="navigacio.css">
 </head>
 <body>
-</body>
-</html>
-<body>
+    <header>
+    </header>
+    <nav class="kezdo">
+      <a href="index.html">Kezdőlap</a>
+    </nav>
     <main>
-        <header></header>
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo"></div>
-                <ul class="nav-menu" id="navMenu">
-                    <li>
-                        <a href="index.html" class="nav-link">Kezdőlap</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <article>
+        <h1 class="ds">Dark Souls 3 kérdőív</h1>
+        <article class="artikul">
+
             <div class="form-container">
-                <h2>dark souls 3 kérdőív</h2>
                 <form action="#" method="post">
                     <div>
                         <label for="nev">gamertag:</label>
@@ -38,7 +29,7 @@
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div>
-                        <label for="esemeny">favboss kiválasztása:</label>
+                        <label for="esemeny">Favboss kiválasztása:</label>
                         <select id="esemeny" name="esemeny" required>
                             <option value="">-- Válassz bosst --</option>
                             <option value="konferencia">Oceiros</option>
@@ -62,40 +53,38 @@
                         </select>
                     </div>
                     <div>
-                        <label for="resztvevok">playtime:</label>
+                        <label for="resztvevok">Playtime:</label>
                         <input type="number" id="resztvevok" name="resztvevok" min="1" max="100" required>
                     </div>
-                    <label>build típus:</label>
+                    <label>Build típus:</label>
                     <div>
                         <input type="radio" id="szemelyes" name="reszvetel" value="szemelyes" required>
-                        <label for="szemelyes">mage,cleric,pyro</label>
+                        <label for="szemelyes">Mage, Cleric, Pyro</label>
                         <input type="radio" id="online" name="reszvetel" value="online">
-                        <label for="online">strenght (bonk)</label>
+                        <label for="online">Strength (bonk)</label>
                         <input type="radio" id="szemelyes" name="reszvetel" value="szemelyes" required>
-                        <label for="szemelyes">dex</label>
+                        <label for="szemelyes">Dex</label>
                     </div>
-                    <label>játékos:</label>
+                    <label>Játékos:</label>
                     <div>
                         <input type="checkbox" id="etterem" name="extra" value="etterem">
-                        <label for="etterem">new</label>
+                        <label for="etterem">New</label>
                         <input type="checkbox" id="szallas" name="extra" value="szallas">
-                        <label for="szallas">expirienced</label>
+                        <label for="szallas">Experienced</label>
                     </div>
                     <div class="jegyzet-container">
                         <label for="megjegyzes" class="jegyzet">jegyzet:</label>
                         <textarea id="megjegyzes" name="megjegyzes" cols="33" rows="3"></textarea>
                     </div>
-            </div>
             <div>
                 <button type="submit">Küldés</button>
             </div>
             </form>
+            </div>
         </article>
-        <aside>
-        </aside>
-        <footer>
-        </footer>
     </main>
-    </div>
+    <footer>
+      <p>© 2026 EseményKözpont</p>
+    </footer>
 </body>
 </html>

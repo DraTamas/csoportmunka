@@ -10,6 +10,13 @@ header {
   text-align: center;
   border-bottom: 2px solid #c9a227;
 }
+.dancer{
+    background-image: url(kepek/dancer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130px;
+}
 header div {
   font-size: 28px;
   font-weight: bold;
@@ -56,7 +63,6 @@ ul {
 li {
   margin-bottom: 8px;
 }
-
 footer {
   background-color: #1b1b1b;
   text-align: center;
