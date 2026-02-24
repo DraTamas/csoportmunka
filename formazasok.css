@@ -10,6 +10,7 @@ header {
   text-align: center;
   border-bottom: 2px solid #c9a227;
 }
+<<<<<<< HEAD
 .dancer{
     background-image: url(kepek/dancer.png);
     background-size: cover;
@@ -17,6 +18,8 @@ header {
     background-repeat: no-repeat;
     height: 130px;
 }
+=======
+>>>>>>> de9d2dcba7f5473b90df2b675796017110aa8a7f
 header div {
   font-size: 28px;
   font-weight: bold;
@@ -63,6 +66,10 @@ ul {
 li {
   margin-bottom: 8px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> de9d2dcba7f5473b90df2b675796017110aa8a7f
 footer {
   background-color: #1b1b1b;
   text-align: center;
