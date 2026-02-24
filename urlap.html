@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="urlap.css">
+    <link rel="stylesheet" href="formazasok.css">
+    <link rel="stylesheet" href="navigacio.css">
+</head>
+<body>
+</body>
+</html>
+<body>
+    <main>
+        <header></header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo"></div>
+                <ul class="nav-menu" id="navMenu">
+                    <li>
+                        <a href="index.html" class="nav-link">Kezdőlap</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <article>
+            <div class="form-container">
+                <h2>dark souls 3 kérdőív</h2>
+                <form action="#" method="post">
+                    <div>
+                        <label for="nev">gamertag:</label>
+                        <input type="text" id="nev" name="nev" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="esemeny">favboss kiválasztása:</label>
+                        <select id="esemeny" name="esemeny" required>
+                            <option value="">-- Válassz bosst --</option>
+                            <option value="konferencia">Oceiros</option>
+                            <option value="workshop">Grave Warden Agdayne</option>
+                            <option value="webinar">Demon in princes</option>
+                            <option value="iudex">Iudex Champion Gundyr</option>
+                            <option value="vordt">Vordt of the Boreal Valley</option>
+                            <option value="curse-rotted">Curse-rotted Greatwood</option>
+                            <option value="crystal-sage">Crystal Sage</option>
+                            <option value="deacons">Deacons of the Deep</option>
+                            <option value="high-lord">High Lord Wolnir</option>
+                            <option value="old-demon">Old Demon King</option>
+                            <option value="pontiff">Pontiff Sulyvahn</option>
+                            <option value="aldrich">Aldrich, Devourer of Gods</option>
+                            <option value="dancer">Dancer of the Boreal Valley</option>
+                            <option value="dragonslayer">Dragonslayer Armour</option>
+                            <option value="nameless">Nameless King</option>
+                            <option value="champion">Champion Gundyr</option>
+                            <option value="midir">Dark Beast Midir</option>
+                            <option value="friede">Sister Friede</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="resztvevok">playtime:</label>
+                        <input type="number" id="resztvevok" name="resztvevok" min="1" max="100" required>
+                    </div>
+                    <label>build típus:</label>
+                    <div>
+                        <input type="radio" id="szemelyes" name="reszvetel" value="szemelyes" required>
+                        <label for="szemelyes">mage,cleric,pyro</label>
+                        <input type="radio" id="online" name="reszvetel" value="online">
+                        <label for="online">strenght (bonk)</label>
+                        <input type="radio" id="szemelyes" name="reszvetel" value="szemelyes" required>
+                        <label for="szemelyes">dex</label>
+                    </div>
+                    <label>játékos:</label>
+                    <div>
+                        <input type="checkbox" id="etterem" name="extra" value="etterem">
+                        <label for="etterem">new</label>
+                        <input type="checkbox" id="szallas" name="extra" value="szallas">
+                        <label for="szallas">expirienced</label>
+                    </div>
+                    <div class="jegyzet-container">
+                        <label for="megjegyzes" class="jegyzet">jegyzet:</label>
+                        <textarea id="megjegyzes" name="megjegyzes" cols="33" rows="3"></textarea>
+                    </div>
+            </div>
+            <div>
+                <button type="submit">Küldés</button>
+            </div>
+            </form>
+        </article>
+        <aside>
+        </aside>
+        <footer>
+        </footer>
+    </main>
+    </div>
+</body>
+</html>

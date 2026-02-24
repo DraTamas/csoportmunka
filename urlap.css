@@ -1,0 +1,18 @@
+body{
+    margin: auto;
+    
+}
+main{
+    width: 70%;
+    margin: auto;
+
+}
+.jegyzet-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.jegyzet {
+  margin: 0;
+}
