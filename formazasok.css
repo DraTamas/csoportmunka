@@ -4,40 +4,44 @@ body {
   background-color: #111;
   color: #e6d8a8;
 }
+
 header {
   background-color: #1b1b1b;
   padding: 20px;
   text-align: center;
   border-bottom: 2px solid #c9a227;
 }
-<<<<<<< HEAD
-.dancer{
-    background-image: url(kepek/dancer.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 130px;
+
+.dancer {
+  background-image: url(kepek/dancer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 130px;
 }
-=======
->>>>>>> de9d2dcba7f5473b90df2b675796017110aa8a7f
+
 header div {
   font-size: 28px;
   font-weight: bold;
   letter-spacing: 2px;
 }
+
 nav {
   margin-top: 10px;
 }
+
 nav a {
   text-decoration: none;
   color: #e6d8a8;
   margin: 0 15px;
   font-weight: bold;
 }
+
 nav a:hover {
   color: #ffffff;
   text-shadow: 0 0 5px #c9a227;
 }
+
 main {
   padding: 40px;
 }
@@ -47,6 +51,7 @@ h2,
 h3 {
   color: #c9a227;
 }
+
 article {
   background-color: #1e1e1e;
   padding: 25px;
@@ -54,22 +59,22 @@ article {
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(201, 162, 39, 0.3);
 }
+
 aside {
   background-color: #181818;
   padding: 20px;
   border-left: 4px solid #c9a227;
   margin-bottom: 20px;
 }
+
 ul {
   padding-left: 20px;
 }
+
 li {
   margin-bottom: 8px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> de9d2dcba7f5473b90df2b675796017110aa8a7f
 footer {
   background-color: #1b1b1b;
   text-align: center;
